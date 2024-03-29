@@ -1,6 +1,8 @@
+"use client"
+
 import Link from 'next/link'
 import React from 'react'
-import styles from './navbarLink.module.css'
+import styles from './navLink.module.css'
 import { usePathname } from 'next/navigation'
 const NavbarLink = ({item}) => {
 

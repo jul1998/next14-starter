@@ -1,5 +1,5 @@
 :root{
-    --bg:black;
+    --bg:#0d0c22;
     --text:white;
     --bgSoft: #2d2b42;
     --textSoft: #e5e5e5;
@@ -32,4 +32,38 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media (max-width: 1536px){
+    .container{
+        width: 1366px;
+    }
+}
+
+@media (max-width: 1366px){
+    .container{
+        width: 1280px;
+    }
+}
+
+
+@media (max-width: 1280px){
+    .container{
+        width: 1024px;
+        padding-left:  20px;
+        padding-right: 20px
+    }
+}
+
+@media (max-width: 1024px){
+    .container{
+        width: 768px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .container{
+        width: 475px;
+    }
 }
