@@ -1,8 +1,9 @@
-import React from 'react'
 import styles from './contact.module.css'
 import Image from 'next/image'
 
 const ContactPage = () => {
+
+
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
@@ -11,6 +12,7 @@ const ContactPage = () => {
       <div className={styles.formContainer}>
         {/* <HydrationTestNoSSR/> */}
         {/* <div suppressHydrationWarning>{a}</div> */}
+        
         <form action="" className={styles.form}>
           <input type="text" placeholder="Name and Surname" />
           <input type="text" placeholder="Email Address" />
